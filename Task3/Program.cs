@@ -38,7 +38,7 @@
 void ShowQuater(int ax, int ay, int bx, int by)
 {
     double distance = Math.Sqrt(Math.Pow(ax-bx, 2) + Math.Pow(ay-by, 2));
-    Console.WriteLine ($"Расстояние между двух точек: {distance}!"); 
+    Console.WriteLine ($"Расстояние между двух точек: {Math.Round(distance, 3)}!"); 
 }
 
 int GetInput(string text)
